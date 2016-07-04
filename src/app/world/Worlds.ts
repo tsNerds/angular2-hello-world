@@ -6,7 +6,7 @@ export class Worlds {
         return  [
             {
                 name: 'beautiful world',
-                color: 'cyan'
+                color: '#333c90'
             },
             {
                 name: 'super mario world',
@@ -14,7 +14,7 @@ export class Worlds {
             },
             {
                 name: 'minecraft world',
-                color: '#ccc'
+                color: '#cc3edc'
             }
         ];
     }

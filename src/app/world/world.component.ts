@@ -6,6 +6,7 @@ import {World} from './World';
   selector: 'world',
   template: `
     <span [style.color]="world.color">{{world.name}}</span>
+    <input type="color" [(ngModel)]="world.color">
   `
 })
 export class WorldComponent {
