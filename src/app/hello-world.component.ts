@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { World } from './World';
-import { Worlds } from './Worlds';
+import { World, Worlds, WorldComponent } from './world/index';
 
 @Component({
   moduleId: module.id,
   selector: 'hello-world-app',
   templateUrl: 'hello-world.component.html',
   styleUrls: ['hello-world.component.css'],
-  providers: [Worlds]
+  providers: [Worlds],
+  directives: [WorldComponent]
 })
 export class HelloWorldAppComponent {
   private worlds: World[];
