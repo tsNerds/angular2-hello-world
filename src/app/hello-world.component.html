@@ -1,6 +1,6 @@
 <h1>
   Available worlds:
 </h1>
-<li *ngFor="let world of worlds">
-  Hello {{world}}!
+<li *ngFor="let world of worlds; let i = index;">
+  world #{{i}}: <span [style.color]="world.color">Hello {{world.name}}!</span>
 </li>

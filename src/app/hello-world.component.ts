@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { World } from './World';
 
 @Component({
   moduleId: module.id,
@@ -7,9 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['hello-world.component.css']
 })
 export class HelloWorldAppComponent {
-  worlds:any[] = [
-    'beautiful world',
-    'super mario world',
-    'minecraft world'
-  ];
+  worlds:World[] = [
+    new World('beautiful world', '#33cda4'),
+    new World('super mario world', '#ff9900'),
+    new World('minecraft world', '#ccc'),
+  ]
 }
