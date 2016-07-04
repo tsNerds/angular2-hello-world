@@ -1,0 +1,18 @@
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    position: relative;
+}
+h1:hover:after {
+    display: block;
+}
+
+h1:after {
+    content: 'Look at me! I got some styles to!';
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background: red;
+    color: blue;
+    display: none;
+}

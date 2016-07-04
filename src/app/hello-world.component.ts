@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['hello-world.component.css']
 })
 export class HelloWorldAppComponent {
-  title = 'hello-world works!';
+  world = 'the beautiful world of angular 2!'
 }
